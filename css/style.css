@@ -20,19 +20,20 @@ header {
     display: flex;
     align-items: center;
     padding: 50px 0px;
-    
 }
 
 .logo img {
     width: 50%;
+    margin-left: 100px;
 }
 
 .menu_déroulant {
     filter : invert(100%);
+    margin-right: 20px;
 }
 
 .menu_déroulant img {
-    width: 100%;
+    width: 300%;
 }
 
 
@@ -47,13 +48,55 @@ main {
 .part_top {
     display: flex;
     background-image: url(../images/slide_1.jpg);
+    background-position: center;
     color: white;
-    
+    padding-bottom: 100px;
 }
 
 .part_top img{
     width: 60%;
     margin : 20px auto;
+}
+
+.part_top h1 {
+    font-size: 1.8rem;
+    margin-bottom: 0;
+}
+
+.part_top h2 {
+    font-size: 1.4rem;
+    margin: 5px auto;
+}
+
+.separation {
+    border-bottom: 3px solid white;
+    width: 90%;
+    margin: auto;
+}
+
+.part_top p {
+    font-size: 1.2rem;
+    margin : 30px auto;
+    color: gray;
+}
+
+/*Boutons */
+.part_top a {
+    text-decoration: none;
+    font-weight: lighter;
+}
+
+.BOOK{
+    color: white; 
+    border: 2px solid white;
+    padding : 10px 15px;
+    margin-right: 20px;
+}
+
+.VIEW {
+    background-color: rgba(255, 218, 11, 0.829) ;
+    color: black;
+    padding : 12px 15px;
 }
 
 /* Partie center */
@@ -80,32 +123,78 @@ main {
     margin: auto;
 }
 
-/* Bas de page */
+.description {
+    color: gray;
+    font-size: 0.95rem;
+}
+
+.prix {
+    color: white;
+    font-size: 1.2rem;
+    margin-bottom: 40px;
+}
+
+/* Pied de page */
 footer {
     background-color: rgb(19, 18, 18);
     text-align: center;
     border-top: 1px solid gray;
-    padding : 40px;
+    padding : 30px 0;
 }
+
+.logo2 {
+    width: 50%;
+}
+
+.info {
+    display: flex;
+    justify-content: center;
+    width: 90%;
+    align-items: center;
+    gap: 10px;
+}
+
+.tel {
+    color: white;
+}
+
+.horaire {
+    color: gray;
+    font-size: 0.8rem;
+}
+
+footer nav ul{
+    display: grid;
+    text-align: left;
+    grid-template-columns: repeat(4 , 1fr);
+    list-style: none;
+    gap: 20px;
+    margin-right: 50px;
+}
+
+footer nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+.logo_réseau {
+    display: flex;
+    justify-content: center;
+    margin: 20px auto;
+    filter: invert(100%);
+    gap : 20px
+}
+
+.Copyright {
+    color: gray;
+    font-size: 0.8rem;
+}
+
+
+
 
 
 .uppercase {
     text-transform: uppercase;
     font-weight: lighter;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-/**************************************** A enlever *******************************************/

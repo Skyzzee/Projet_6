@@ -1,0 +1,114 @@
+body {
+    margin : 0;
+}
+
+.conteneur{
+   width: 90%;
+   margin: auto;
+}
+
+.apparition_ordi {
+    display : none;
+}
+
+/* header */
+header {
+    background-color: rgb(19, 18, 18);
+}
+
+.menu {
+    display: flex;
+    align-items: center;
+    padding: 50px 0px;
+    
+}
+
+.logo img {
+    width: 50%;
+}
+
+.menu_déroulant {
+    filter : invert(100%);
+}
+
+.menu_déroulant img {
+    width: 100%;
+}
+
+
+
+/* Corps de la page */
+
+/* Partie top */
+main {
+    text-align: center;
+}
+
+.part_top {
+    display: flex;
+    background-image: url(../images/slide_1.jpg);
+    color: white;
+    
+}
+
+.part_top img{
+    width: 60%;
+    margin : 20px auto;
+}
+
+/* Partie center */
+.part_center{
+    display: flex;
+    background-image: url(../images/back_2.png);
+}
+
+.part_center img{
+    width: 30%;
+    margin : 20px auto;
+}
+
+
+/* Partie bottom */
+.part_bottom {
+    display:flex;
+    background-color:  rgb(19, 18, 18);
+    color: white;
+}
+
+.part_bottom img {
+    width: 80%;
+    margin: auto;
+}
+
+/* Bas de page */
+footer {
+    background-color: rgb(19, 18, 18);
+    text-align: center;
+    border-top: 1px solid gray;
+    padding : 40px;
+}
+
+
+.uppercase {
+    text-transform: uppercase;
+    font-weight: lighter;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/**************************************** A enlever *******************************************/
+main img {
+    width: 100%;
+}

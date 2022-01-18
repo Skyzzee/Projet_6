@@ -191,10 +191,64 @@ footer nav ul li a {
 }
 
 
-
-
-
 .uppercase {
     text-transform: uppercase;
     font-weight: lighter;
 }
+
+/*Ordinateur */
+@media screen and (min-width:1200px){
+
+    .apparition_ordi {
+        display: block;
+    }
+
+    .apparition_tel {
+        display : none;
+    }
+
+    /* Entête */
+    header {
+        padding-bottom : 50px;
+    }
+
+    .présentation {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .contact {
+        display: flex;
+        align-items: center;
+        color: white;
+    }
+
+    .shop {
+        display : flex ;
+        align-items: center;
+        color: white;
+    }
+
+    .nav ul {
+        display: flex;
+        list-style: none;
+        gap : 50px;
+        justify-content: center;
+    }
+
+    .nav ul li a{
+        color: white;
+        text-decoration: none;
+    }
+
+    /* Corps de la page */
+
+    /* Partie top */
+
+    /* Partie center */
+
+    /* Partie bottom */
+
+}
+
